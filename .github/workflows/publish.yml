@@ -21,10 +21,10 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-        
+
       - name: Install python requirements
         run: pip install ansible
-          
+
       - name: substitute token for automation hub
         id: inject-tokens
         run: |
@@ -44,20 +44,20 @@ jobs:
         id: set-version
         run: |
           echo $NEW_VERSION
-          sed -i "s/semantic_version/$NEW_VERSION/1" zjleblanc/reporting/galaxy.yml
+          sed -i "s/semantic_version/$NEW_VERSION/1" galaxy.yml
         env:
           NEW_VERSION: ${{ env.NEW_VERSION }}
 
       - name: Build collection
         id: build-collection
-        run: ansible-galaxy collection build zjleblanc/reporting
+        run: ansible-galaxy collection build .
 
       - name: Publish collection to Private Automation Hub
         id: publish-pah
         run: ansible-galaxy collection publish zjleblanc-reporting-$NEW_VERSION.tar.gz -s pah
         env:
           NEW_VERSION: ${{ env.NEW_VERSION }}
-        
+
       - name: Publish collection to Galaxy
         id: publish-galaxy
         run: ansible-galaxy collection publish zjleblanc-reporting-$NEW_VERSION.tar.gz -s galaxy

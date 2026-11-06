@@ -1,11 +1,15 @@
-# zjleblanc.reporting
+# Ansible Collection - zjleblanc.reporting
+
+Collection of roles for generating html reports
 
 ## Roles
 
-| FCQN | Documentation |
+| FQCN | Documentation |
 | --- | :---: |
-| zjleblanc.reporting.table | [📝](https://github.com/zjleblanc/zjleblanc.reporting/blob/master/zjleblanc/reporting/roles/table/README.md) |
-| zjleblanc.reporting.facts | [📝](https://github.com/zjleblanc/zjleblanc.reporting/blob/master/zjleblanc/reporting/roles/facts/README.md) |
-| zjleblanc.reporting.cisco_facts | [📝](https://github.com/zjleblanc/zjleblanc.reporting/blob/master/zjleblanc/reporting/roles/cisco_facts/README.md) |
-| zjleblanc.reporting.org_host_metrics | [📝](https://github.com/zjleblanc/zjleblanc.reporting/blob/master/zjleblanc/reporting/roles/org_host_metrics/README.md) |
-| zjleblanc.reporting.dnf | [📝](https://github.com/zjleblanc/zjleblanc.reporting/blob/master/zjleblanc/reporting/roles/dnf/README.md) |
+| zjleblanc.reporting.table | [📝](./roles/table/README.md) |
+| zjleblanc.reporting.facts | [📝](./roles/facts/README.md) |
+| zjleblanc.reporting.cisco_facts | [📝](./roles/cisco_facts/README.md) |
+| zjleblanc.reporting.org_host_metrics | [📝](./roles/org_host_metrics/README.md) |
+| zjleblanc.reporting.dnf | [📝](./roles/dnf/README.md) |
+| zjleblanc.reporting.cve | [📝](./roles/cve/README.md) |
+| zjleblanc.reporting.table_per_host | [📝](./roles/table_per_host/README.md) |
