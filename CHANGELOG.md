@@ -19,4 +19,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [1.5.1] and earlier
 
-Releases prior to this file being introduced were tracked only via [GitHub tags](https://github.com/zjleblanc/zjleblanc.reporting/tags) and commit history.
+Releases prior to this file being introduced were tracked only via [GitHub tags](https://github.com/autodotes/zjleblanc.reporting/tags) and commit history.

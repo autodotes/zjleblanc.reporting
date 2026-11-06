@@ -3,7 +3,7 @@ zjleblanc.reporting.org_host_metrics
 
 Generate a report of Ansible host entitlement usage stratified by Organization. Purpose-built to work with the data model produced by the [zjleblanc.utils.org_host_metrics](https://galaxy.ansible.com/ui/repo/published/zjleblanc/utils/content/lookup/org_host_metrics/) lookup plugin.
 
-[Issue Tracker](https://github.com/zjleblanc/zjleblanc.reporting/issues)
+[Issue Tracker](https://github.com/autodotes/zjleblanc.reporting/issues)
 
 Minimum Ansible Version: 2.9
 

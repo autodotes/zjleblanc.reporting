@@ -3,7 +3,7 @@ zjleblanc.reporting.dnf
 
 Generate a report using dnf (or yum) patch results with services health check information
 
-[Issue Tracker](https://github.com/zjleblanc/zjleblanc.reporting/issues)
+[Issue Tracker](https://github.com/autodotes/zjleblanc.reporting/issues)
 
 Minimum Ansible Version: 2.9
 

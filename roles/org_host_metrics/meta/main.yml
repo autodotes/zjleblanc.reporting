@@ -2,7 +2,7 @@ galaxy_info:
   author: Zachary LeBlanc
   description: Generate a report of Ansible host entitlement usage stratified by Organization
   company: Red Hat
-  issue_tracker_url: https://github.com/zjleblanc/zjleblanc.reporting/issues
+  issue_tracker_url: https://github.com/autodotes/zjleblanc.reporting/issues
   license: GPL-3.0-only
   min_ansible_version: "2.9"
 
