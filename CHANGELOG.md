@@ -13,6 +13,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 
 - Collection content now lives at the repository root. The publish workflow builds from `.` and writes the release version into `galaxy.yml`.
+- `galaxy.yml` uses `0.0.0-semantic-version` so the version is valid semantic versioning. The publish workflow replaces that full placeholder.
+- The publish workflow publishes only to Ansible Galaxy. It no longer injects a Private Automation Hub token or uploads the collection there.
 - `requires_ansible` is `>=2.15.0`.
 - Collection README role links are relative paths and include `cve`, `dnf`, and `table_per_host`.
 - `galaxy.yml` `build_ignore` excludes repository tooling so it is not packaged in the collection artifact.
